@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Buscador web </title>
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">  
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+    <h1>Buscador de libros</h1>
+
+    <div class="contenedor">
+
+        
+
+        <form id="buscador">
+            <div class="row">
+                <div class="three columns">
+                    <label for="ISBN" id="ISBN">ISBN</label>
+                    <input type="text">
+                    
+                </div>
+                <div class="three columns">
+                    <label for="year">Edicion</label>
+                    <select class="u-full-width" id="year">
+                        <option value="">Seleccione</option>
+                    </select>
+                </div>
+                <div class="three columns">
+                    <label for="Autor">Autor</label>
+                    <select class="u-full-width" id="Autor">
+                            <option value="">Seleccione</option>
+                            <option value="">Donna Tartt</option>
+                            <option value="">Paulo Coelho</option>
+                            <option value="">Cormac McCarthy</option>
+                            <option value="">Khaled Hosseini</option>
+                            <option value="">Yann Martel</option>
+                            <option value="">Erin Morgenstern</option>
+                            <option value="">Harper Lee</option>
+                            <option value="">Markus Zusak</option>
+                            <option value="">Alice Sebold</option>
+                            <option value=""> M.L. Stedman</option>
+                            <option value="">Neil Gaiman</option>
+                            <option value="">Joël Dicker</option>
+                            <option value="">John Green</option>
+                            <option value="">Pierre Lemaitre</option>
+                            <option value=""> Rafael Chirbes</option>
+                            <option value="">Yuval Noah Harari</option>
+                            <option value="">Fernando Aramburu</option>
+                            <option value="">Leonardo Padura</option>
+                            <option value="">María Dueñas</option>
+                            <option value="">Carlos Ruiz Zafón</option>
+                    </select>
+                </div>
+                <div class="three columns">
+                    <label for="Categoria">Categoria</label>
+                    <select class="u-full-width" id="Categoria">
+                            <option value="">Seleccione</option>
+                            <option value="">Ficcion</option>
+                            <option value="">Fantasia</option>
+                            <option value="">Filosofia</option>
+                            <option value="">Accion</option>
+                            <option value="">Aventura</option>
+                            <option value="">Historia</option>
+                            <option value="">Conteporaneo</option>
+                            <option value="">Clasico</option>
+                            <option value="">Ciencias</option>
+                            <option value="">Misterio</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <div class="four columns">
+                        <label for="Nombre" id="Titulo">Titulo</label>
+                        <input type="text">
+                        
+                    </div>
+                   
+                    
+                </div>
+            </div>
+        </form>
+
+
+        <h1>Resultados</h1>
+        <div id="resultado"></div>
+    </div>
+
+    <a class="sitio-web"  >ED Tecnica EG</a>
+
+    <script src="js/db.js"></script>
+    <script src="js/buscador.js"></script>
+    
+</body>
+</html>
