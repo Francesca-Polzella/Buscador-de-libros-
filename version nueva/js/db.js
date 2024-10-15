@@ -150,13 +150,13 @@ const Libros = [
 		year:2022 ,
 		Categoria: ' Ficción histórica',
 		Autor:'María Dueñas'
-    }
-	{ 
-      
+    },
+	{
 		ISBN: ' 978-8498387116',
 		Titulo: 'La sombra del viento',
 		year: 2023,
 		Categoria: 'Misterio, Ficción histórica',
 		Autor:' Carlos Ruiz Zafón'
-    }
+	}
+   
 ];

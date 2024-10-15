@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Buscador de libros</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">  
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/skeleton.css">
+        <link rel="stylesheet" href="css/app.css">
+    </head>
+    <body>
+    <h1> Buscador de libros</h1>
+
+    <div class="contenedor">
+        <form class=" buscador" id="buscador">
+            <label for="ISBM">ISBM</label>
+            <input type="search"name="search" placeholder="Colocar el ISBM">
+
+            <label for="titulo">Titulo</label>
+            <input type="search"name="search" placeholder="Colocar el titulo  ">
+            
+            <label for="año">Año</label>
+            <input type="search" name="search" placeholder="Colocar el año ">
+
+            <label for="categoria">Categoria</label>
+            <input type="search"name="search"placeholder='Colocar la categoria'>
+
+            <label for="autor">Autor</label>
+            <input type="search" name="search" placeholder="Colocar el autor">
+
+            <button type="submit">Buscar</button>
+        </form>
+
+        <h2>Resultados</h2>
+        <div id="resultados"></div>
+    </div>
+
+    <a class="sitio-web"  >ED Tecnica EG</a>
+
+    <script src="js/db.js"></script>
+    <script src="js/buscador2.js"></script>
+    </body>
+</html>
