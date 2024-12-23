@@ -3,10 +3,15 @@ const year = document.querySelector('#year');
 const titulo = document.querySelector('#titulo');
 const categoria = document.querySelector('#categoria');
 const autor = document.querySelector('#autor');
-
+const libro = document.getElementById('miElemento')
+if(libro){
+    libro.addEventListener('input',miFuncion)
+}else{
+    console.error('Element with ID "miElemento" not found.');
+}
 // Generador de años
 // Función para generar opciones de años
-function generarAnios(selectElement, minYears = 10) {
+function generarAnios(selectElement, minYears) {
     const max = new Date().getFullYear();
     const min = max - minYears;
 
@@ -19,7 +24,7 @@ function generarAnios(selectElement, minYears = 10) {
 }
 
 // Llamar a la función para generar los años
-generarAnios(year);
+generarAnios(year,10);
 
 
 
@@ -33,6 +38,7 @@ const datosBusquedad = {
 };
 
 // Crear los eventos
+document.addEventListener('DOMContentLoaded',(libro))
 document.addEventListener('DOMContentLoaded', () => {
     mostrarAutos(Libros);
 });
@@ -69,9 +75,9 @@ function mostrarAutos(Libros) {
     const contenedor = document.querySelector('#resultado');
     
     // Armar el HTML para que se vean los libros 
-    Libros.forEach(libro => {
+    Libros.forEach(Libros => {
         const libroHTML = document.createElement('p');
-        libroHTML.innerHTML = `${libro.ISBM} - ${libro.titulo} - ${libro.year} - Categoría: ${libro.categoria} - Autor: ${libro.autor}`;
+        libroHTML.innerHTML = `${Libros.ISBM} - ${Libros.titulo} - ${Libros.year} - Categoría: ${Libros.categoria} - Autor: ${Libros.autor}`;
         contenedor.appendChild(libroHTML);
     });
 }

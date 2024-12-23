@@ -1,162 +1,162 @@
 const Libros = [
 	{
 		ISBN: '978-8498387087',
-		Titulo: 'El jilguero',
+		Titulo: 'el jilguero',
 		year: 2014,
-		Categoria: 'Ficción contemporánea',
-		Autor: 'Donna Tartt',
+		Categoria: 'ficción contemporánea',
+		Autor: 'donna Tartt',
 		
 	},
 	{ 
 		ISBN: '978-0062315007 ',
-		Titulo: 'El alquimista',
+		Titulo: 'el alquimista',
 		year: 2015 ,
-		Categoria: ' Ficción, Filosofía',
-		Autor: 'Paulo Coelho',
+		Categoria: ' Ficción, filosofía',
+		Autor: 'paulo coelho',
 		
     },
 	{
 		ISBN: ' 978-0307387899',
-		Titulo: 'La carretera',
+		Titulo: 'la carretera',
 		year: 2016 ,
-		Categoria: ' Ficción post-apocalíptica',
-		Autor: 'Cormac McCarthy',
+		Categoria: ' ficción post-apocalíptica',
+		Autor: 'cormac mcCarthy',
 		
 	},
 	{ 
 		ISBN: ' 978-8498387100',
-		Titulo: 'Cometas en el cielo',
+		Titulo: 'cometas en el cielo',
 		year:2017 ,
-		Categoria: 'Ficción histórica',
-		Autor:'Khaled Hosseini'
+		Categoria: 'ficción histórica',
+		Autor:'khaled hosseini'
     },
 	{
 		ISBN: ' 978-8498387101',
-		Titulo: 'La vida de Pi',
+		Titulo: 'la vida de Pi',
 		year:2018 ,
-		Categoria: ' Aventura, Ficción',
-		Autor:'Yann Martel'
+		Categoria: ' aventura, ficción',
+		Autor:'yann martel'
 	},
 	{
 		
 		ISBN: '978-8498387102 ',
-		Titulo: 'El circo de la noche',
+		Titulo: 'el circo de la noche',
 		year:2019 ,
-		Categoria: 'Fantasía',
-		Autor:'Erin Morgenstern'
+		Categoria: 'fantasía',
+		Autor:'erin morgenstern'
 	},
 	
 	{
 		
 		ISBN: ' 978-8498387103',
-		Titulo: 'Matar a un ruiseñor',
+		Titulo: 'matar a un ruiseñor',
 		year:2020 ,
-		Categoria: 'Clásico, Ficción',
-		Autor:'Harper Lee'
+		Categoria: 'clásico, ficción',
+		Autor:'harper lee'
 		
 	},
 	{ 
        
 		ISBN: ' 978-8498387104',
-		Titulo: 'La ladrona de libros',
+		Titulo: 'la ladrona de libros',
 		year:2021 ,
-		Categoria: ' Ficción histórica',
-		Autor: 'Markus Zusak'
+		Categoria: ' ficción histórica',
+		Autor: 'markus zusak'
     },
 	{
 		
 		ISBN: '  978-8498387105',
-		Titulo: 'Desde mi cielo',
+		Titulo: 'desde mi cielo',
 		year: 2022,
-		Categoria: ' Ficción, Misterio',
-		Autor:'Alice Sebold'
+		Categoria: ' ficción, Misterio',
+		Autor:'alice sebold'
 	},
 	{ 
         
 		ISBN: '978-8498387106 ',
-		Titulo: '"La luz entre los océanos',
+		Titulo: 'la luz entre los océanos',
 		year: 2023,
-		Categoria: ' Ficción histórica',
-		Autor:'M.L. Stedman'
+		Categoria: 'ficción histórica',
+		Autor:'m.l. stedman'
     },
 	{
 		
 		ISBN: ' 978-8498387107 ',
-		Titulo: 'El océano al final del camino',
+		Titulo: 'el océano al final del camino',
 		year:2014 ,
-		Categoria: 'Fantasía',
-		Autor:'Neil Gaiman'
+		Categoria: 'fantasía',
+		Autor:'neil gaiman'
 	},
 	{
 		
 		ISBN: ' 978-8498387108 ',
-		Titulo: 'La verdad sobre el caso Harry Quebert',
+		Titulo: 'la verdad sobre el caso Harry Quebert',
 		year: 2015,
-		Categoria: 'Misterio',
-		Autor:' Joël Dicker'
+		Categoria: 'misterio',
+		Autor:' joël dicker'
 	},
 	{
 		
 		ISBN: ' 978-8498387109 ',
-		Titulo: 'Bajo la misma estrella',
+		Titulo: 'bajo la misma estrella',
 		year: 2016,
-		Categoria: ' Ficción juvenil',
-		Autor:'John Green'
+		Categoria: ' ficción juvenil',
+		Autor:'john green'
 	},
 	{ 
         
 		ISBN: ' 978-8498387110 ',
-		Titulo: 'Nos vemos allá arriba',
+		Titulo: 'nos vemos allá arriba',
 		year: 2017,
-		Categoria: 'Ficción histórica',
-		Autor:'Pierre Lemaitre'
+		Categoria: 'ficción histórica',
+		Autor:'pierre lemaitre'
     },
 	{
 		
 		ISBN: '978-8498387111',
-		Titulo: 'En la orilla',
+		Titulo: 'en la orilla',
 		year:2018 ,
-		Categoria: ' Ficción contemporánea',
-		Autor:'Rafael Chirbes'
+		Categoria: ' ficción contemporánea',
+		Autor:'rafael chirbes'
 	},
 	{
 		
 		ISBN: '978-8498387112 ',
-		Titulo: 'Sapiens: De animales a dioses',
+		Titulo: 'sapiens: de animales a dioses',
 		year: 2019,
-		Categoria: ' Historia, Ciencia',
-		Autor:'Yuval Noah Harari'
+		Categoria: ' historia, ciencia',
+		Autor:'yuval noah harari'
 	},
 	{
 		
 		ISBN: '978-8498387113 ',
-		Titulo: 'Patria',
+		Titulo: 'patria',
 		year: 2020,
-		Categoria: 'Ficción contemporánea',
-		Autor:'Fernando Aramburu'
+		Categoria: 'ficción contemporánea',
+		Autor:'fernando aramburu'
 	},
 	{
 		
 		ISBN: ' 978-8498387114',
-		Titulo: 'El hombre que amaba a los perros',
+		Titulo: 'el hombre que amaba a los perros',
 		year:2021 ,
-		Categoria: 'Ficción histórica',
-		Autor:'Leonardo Padura'
+		Categoria: 'ficción histórica',
+		Autor:'leonardo padura'
 	},
 	{ 
       
 		ISBN: '978-8498387115 ',
-		Titulo: 'El tiempo entre costuras',
+		Titulo: 'el tiempo entre costuras',
 		year:2022 ,
-		Categoria: ' Ficción histórica',
-		Autor:'María Dueñas'
+		Categoria: ' ficción histórica',
+		Autor:'maría dueñas'
     },
 	{
 		ISBN: ' 978-8498387116',
-		Titulo: 'La sombra del viento',
+		Titulo: 'la sombra del viento',
 		year: 2023,
-		Categoria: 'Misterio, Ficción histórica',
-		Autor:' Carlos Ruiz Zafón'
+		Categoria: 'misterio, Ficción histórica',
+		Autor:' carlos ruiz zafón'
 	}
    
 ];
