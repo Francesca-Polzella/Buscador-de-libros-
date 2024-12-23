@@ -60,9 +60,9 @@ function mostrarAutos() {
             autoHTML.innerHTML = `
                 <p>ISBM: ${auto.ISBM}</p>
                 <p>Año: ${auto.year}</p>
-                <p>Título: ${auto.titulo}</p>
-                <p>Categoría: ${auto.categoria}</p>
-                <p>Autor: ${auto.autor}</p>
+                <p>Título: ${auto.titulo}<p>
+                <p>Categoría: ${auto.Categoria}</p>
+                <p>Autor: ${auto.Autor}</p>
             `;
             resultado.appendChild(autoHTML);
         });
