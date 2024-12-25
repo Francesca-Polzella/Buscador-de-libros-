@@ -58,9 +58,9 @@ function mostrarAutos() {
         autosFiltrados.forEach(auto => {
             const autoHTML = document.createElement('div');
             autoHTML.innerHTML = `
-                <p>ISBM: ${auto.ISBM}</p>
+                <p>ISBN: ${auto.ISBN}</p>
                 <p>Año: ${auto.year}</p>
-                <p>Título: ${auto.titulo}<p>
+                <p>Título: ${auto.Titulo}</p>
                 <p>Categoría: ${auto.Categoria}</p>
                 <p>Autor: ${auto.Autor}</p>
             `;
@@ -147,11 +147,11 @@ function filtrarAuto() {
         autosFiltrados.forEach(auto => {
             const autoHTML = document.createElement('div');
             autoHTML.innerHTML = `
-                <p>ISBM: ${auto.ISBM}</p>
+                <p>ISBN: ${auto.ISBN}</p>
                 <p>Año: ${auto.year}</p>
-                <p>Título: ${auto.titulo}</p>
-                <p>Categoría: ${auto.categoria}</p>
-                <p>Autor: ${auto.autor}</p>
+                <p>Título: ${auto.Titulo}</p>
+                <p>Categoría: ${auto.Categoria}</p>
+                <p>Autor: ${auto.Autor}</p>
             `;
             resultado.appendChild(autoHTML);
         });
@@ -162,7 +162,7 @@ function filtrarAuto() {
 
 function filtrarISBM(libro) {
     if (datosBusquedad.ISBM) {
-        return libro.ISBM === datosBusquedad.ISBM;
+        return libro.ISBN === datosBusquedad.ISBM;
     }
     return true;
 }
@@ -176,21 +176,21 @@ function filtrarYear(libro) {
 
 function filtrartitulo(libro) {
     if (datosBusquedad.titulo) {
-        return libro.titulo.toLowerCase().includes(datosBusquedad.titulo.toLowerCase());
+        return libro.Titulo.toLowerCase().includes(datosBusquedad.titulo.toLowerCase());
     }
     return true;
 }
 
 function filtrarcategoria(libro) {
     if (datosBusquedad.categoria) {
-        return libro.categoria.toLowerCase().includes(datosBusquedad.categoria.toLowerCase());
+        return libro.Categoria.toLowerCase().includes(datosBusquedad.categoria.toLowerCase());
     }
     return true;
 }
 
 function filtrarautor(libro) {
     if (datosBusquedad.autor) {
-        return libro.autor.toLowerCase().includes(datosBusquedad.autor.toLowerCase());
+        return libro.Autor.toLowerCase().includes(datosBusquedad.autor.toLowerCase());
     }
     return true;
 }
